@@ -1,0 +1,24 @@
+@font-face {
+    font-family: digital7;
+    src: url("assets/digital-7.ttf");
+}
+
+body {
+    background-color: black;
+    color: yellow;
+    font-size: 20rem;
+    display: flex;
+    justify-content: center; /* Aligns horizontally in the center */
+    align-items: center; /* Aligns vertically in the center */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0; /* Resets default margin */
+    padding: 0; /* Resets default padding */
+    font-style: italic;
+}
+
+#clock {
+    text-align: center;
+    font-family: "digital7";
+}
