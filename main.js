@@ -22,7 +22,7 @@ function playSound(soundFile) {
 
 function updateClock() {
     let currentDate = new Date();
-    let targetDate = new Date('2023-08-03T10:00:00-06:00'); // Replace this with your target date and time
+    let targetDate = new Date('2023-08-03T10:00:00-05:00'); // Replace this with your target date and time
 
     let timeRemaining = targetDate.getTime() - currentDate.getTime();
 
